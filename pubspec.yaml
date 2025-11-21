@@ -1,0 +1,32 @@
+name: flutter_cart_app
+description: A simple cart app using Cubit, Bloc, and Grid UI.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_bloc: ^8.1.3
+
+  # Untuk gambar dari URL (sudah bawaan Flutter, jadi tidak perlu package)
+  # http: ^1.2.1   # (opsional jika nanti fetch data dari API)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
